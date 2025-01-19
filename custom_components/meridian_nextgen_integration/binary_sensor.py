@@ -1,4 +1,4 @@
-"""Binary sensor platform for integration_blueprint."""
+"""Binary sensor platform for meridian_nextgen_integration."""
 
 from __future__ import annotations
 
@@ -21,8 +21,8 @@ if TYPE_CHECKING:
 
 ENTITY_DESCRIPTIONS = (
     BinarySensorEntityDescription(
-        key="integration_blueprint",
-        name="Integration Blueprint Binary Sensor",
+        key="meridian_nextgen_integration",
+        name="Meridian Nextgen Binary Sensor",
         device_class=BinarySensorDeviceClass.CONNECTIVITY,
     ),
 )
@@ -44,7 +44,7 @@ async def async_setup_entry(
 
 
 class IntegrationBlueprintBinarySensor(IntegrationBlueprintEntity, BinarySensorEntity):
-    """integration_blueprint binary_sensor class."""
+    """meridian_nextgen_integration binary_sensor class."""
 
     def __init__(
         self,

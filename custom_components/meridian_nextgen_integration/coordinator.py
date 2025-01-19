@@ -1,4 +1,4 @@
-"""DataUpdateCoordinator for integration_blueprint."""
+"""DataUpdateCoordinator for meridian_nextgen_integration."""
 
 from __future__ import annotations
 
